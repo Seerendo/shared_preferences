@@ -6,7 +6,7 @@ import 'package:share_preferences_app/share_preferences/preferences.dart';
 
 //Aunque el build siempre es asíncrono se puede usar este método de llamado del main para poder usar el async
 void main() async {
-  //Necesario en las nuevas versiones de Flutter si deseas usar shared_preferences
+  //!Necesario en las nuevas versiones de Flutter si deseas usar shared_preferences u otras funciones
   WidgetsFlutterBinding.ensureInitialized();
   //Llamado de las preferencias
   await Preferences.init();
